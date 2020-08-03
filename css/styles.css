@@ -1,0 +1,265 @@
+/** Home **/
+
+.body-home img{
+
+    width: 100%;
+
+}
+
+.body-home h3{
+
+    color: #14387F;
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.body-home div.mcp{
+
+    display: flex;
+    justify-content: flex-end;
+    color: #14387F;
+    font-weight: 400;
+}
+
+.body-home h3 span{
+
+    background-color: #E30613;
+    color: #fff;
+    padding: 2px 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px rgba(0,0,0, .6);
+}
+
+
+/** Header **/
+
+header.generic{
+
+    border-bottom: .8em solid #CD171A;
+}
+
+header .logo-header img{
+
+    width: 90%;
+}
+
+header img{
+
+    width: 100%;
+}
+
+/** Pre-footer **/
+
+.pre-footer div{
+
+    background-color: #14387F;
+    color: #fff;
+    text-decoration: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+.pre-footer div:active, .pre-footer div:hover, .pre-footer a:hover, .pre-footer a:active{
+
+    background-color: #E30613;
+}
+
+.pre-footer a{
+
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: .9em;
+}
+
+/** Footer **/
+
+footer{
+
+    background-color: #DDDFE2;
+    padding-top: .5em;
+    padding-bottom: .3em;
+}
+
+footer .row .col-md-4{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .iconos{
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .iconos img{
+
+    width: 60%;
+}
+
+footer .menarini-logo img{
+
+    width: 20%;
+}
+
+footer .logo-footer img{
+
+    width: 75%;
+}
+
+/** Páginas **/
+
+.impacto-body h1{
+
+    color: #14387F;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 500;
+    margin-top: 1.2em;
+
+}
+
+.impacto-body img{
+
+    width: 85%;
+}
+
+.impacto-body .resena{
+
+    color: #14387F;
+    font-size: 2em;
+    line-height: 35px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.impacto-body .resena span{
+
+    font-weight: 600;
+}
+
+.impacto-body .encuesta{
+
+    background-color: #F1F2F4;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: #787D84;
+    line-height: 1.4;
+}
+
+.impacto-body .encuesta p{
+
+    margin-bottom: 0;
+}
+
+.impacto-body .leyendas{
+
+    color: #14387F;
+    font-weight: 500;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.impacto-body .leyendas span{
+
+    font-size: .8em;
+}
+
+.impacto-body .leyendas p{
+
+    font-size: 1.1em;
+}
+
+.impacto-body .libro-vinculo{
+
+    display: flex;
+    justify-content: center;
+    margin-top: -.3em;
+    margin-bottom: 1em;
+}
+
+.impacto-body .libro-vinculo img{
+
+    width: 70%;
+}
+
+.criterios-body .disminuye{
+
+    font-size: 1.5em;
+    color: #14387F;
+    display: flex;
+    align-items: flex-start;
+}
+
+.criterios-body .disminuye img{
+
+    width: 80%;
+}
+
+.criterios-body .disminuye p{
+
+    line-height: 1.3;
+}
+
+.criterios-body .disminuye span{
+
+    font-weight: 700;
+}
+
+.criterios-body .disminuye .col-md-1, .criterios-body .disminuye .col-md-11{
+
+    padding: 0;
+}
+
+.criterios-body .titulos-roma{
+
+    color: #14387F;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.criterios-body .sintomas-container{
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.criterios-body .sintomas{
+
+    border-radius: 30px;
+    border: 2px solid #14387F;
+    color: #14387F;
+    font-size: 1.2em;
+    line-height: 1.3;
+    width: 100%;
+    padding-left: 2em;
+    padding-top: 1em
+}
+
+.criterios-body .info{
+
+    margin-bottom: 2em;
+}
+
+.criterios-body .sintomas span{
+
+    font-weight: 700;
+}
