@@ -47,6 +47,13 @@ header .logo-header img{
 header img{
 
     width: 100%;
+    margin-top: 1em;
+}
+
+header img.float-right{
+
+    width: 70%;
+    margin-top: 1.5em;
 }
 
 /** Pre-footer **/
@@ -123,11 +130,15 @@ footer .logo-footer img{
 
 /** Páginas **/
 
+.body h1{
+
+    font-size: 1.5em;
+    color: #14387F;
+}
+
 .impacto-body h1{
 
-    color: #14387F;
     text-transform: uppercase;
-    font-size: 2em;
     font-weight: 500;
     margin-top: 1.2em;
 
@@ -262,4 +273,219 @@ footer .logo-footer img{
 .criterios-body .sintomas span{
 
     font-weight: 700;
+}
+
+.algoritmo-body h1{
+
+    color: #14387F;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+    margin-top: .5em;
+}
+
+.algoritmo-body img{
+
+    width: 100%;
+    margin-top: -2em;
+    position: relative;
+    z-index: 2;
+}
+
+.mecanismos-body .info{
+
+    text-align: center;
+}
+
+.mecanismos-body img{
+
+    width: 90%;
+}
+
+.mecanismos-body ul{
+
+    color: #14387F;
+}
+
+.mecanismos-body ul span{
+
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.evidencia-body {
+
+    font-style: italic;
+}
+
+.evidencia-body .evidencias{
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.evidencia-body .evidencias p{
+
+    margin-bottom: 0;
+}
+
+.evidencia-body .evidencias .grupo-1, 
+.evidencia-body .evidencias .grupo-2{
+
+    width: 27%;
+    font-size: 1em;
+    line-height: 1.3;
+}
+
+.evidencia-body .evidencias .grupo-1 div,
+.evidencia-body .evidencias .grupo-2 div{
+
+    display: flex;
+    align-items: center;
+    background-color: #14387F;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 2em;
+    padding: 0 2em;
+    padding-top: .3em;
+    padding-left: 1em;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+    text-align: center;
+    height: 5.5em;
+}
+
+.evidencia-body .evidencias .grupo-1 div img,
+.evidencia-body .evidencias .grupo-2 div img{
+
+    width: 1.3em;
+    margin-right: 1em;
+}
+
+.evidencia-body .evidencia-obis div{
+
+    display: flex;
+    align-items: center;
+    background-color: #14387F;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 0 2em;
+    padding-left: 1em;
+    padding-top: .3em;
+    margin-left: 1em;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+    text-align: center;
+    height: 5.5em;
+    width: 27%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.evidencia-body .evidencia-obis div p{
+
+    margin: 0 auto;
+}
+
+.evidencia-body .evidencia-obis div img{
+
+    width: 1.3em;
+    margin-right: 1em;
+}
+
+.gracias-body .listas{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    color: #14387F;
+    font-size: 1.5em;
+    font-weight: 600
+}
+
+.gracias-body .listas .lista-1, 
+.gracias-body .listas .lista-2{
+
+    width: 100%;
+}
+
+.gracias-body .listas ul{
+
+    list-style: none;
+    padding-left: 0;
+}
+
+.gracias-body .listas .lista-1 ul li,
+.gracias-body .listas .lista-2 ul li{
+
+    display: flex;
+    align-items: self-start;
+    margin-bottom: .5em;
+    line-height: 1.2;
+}
+
+.gracias-body .infografia{
+
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.gracias-body .infografia p{
+
+    text-align: left;
+    color: #14387F;
+    font-size: .9em;
+}
+
+.gracias-body .infografia img{
+
+    width: 100%;
+}
+
+.gracias-body .vivir-sano img{
+
+    width: 75%;
+}
+
+.gracias-body .vivir-sano .home-icono{
+
+    width: 15%;
+    margin-top: -3em;
+}
+
+.gracias-body .icono-home img{
+
+    width: 25%;
+}
+
+.gracias-body .codigo-qr img{
+
+    width: 70%;
+}
+
+.gracias-body .vivir-sano, 
+.gracias-body .icono-home{
+
+    margin-bottom: 1em;
+}
+
+/** Generales **/
+.modal-header{
+
+    margin: 0 auto;
+
+}
+
+.modal-dialog{
+
+    max-width: 90%;
+}
+
+.modal-content{
+
+    border-radius: 30px;
 }
