@@ -155,8 +155,8 @@ footer .logo-footer img{
 .impacto-body .resena{
 
     color: #14387F;
-    font-size: 2em;
-    line-height: 35px;
+    font-size: 1.5em;
+    line-height: 1;
     text-align: left;
     font-weight: 400;
 }
@@ -168,11 +168,12 @@ footer .logo-footer img{
 
 .impacto-body .encuesta{
 
+    border-radius: 10px;
     background-color: #F1F2F4;
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding: .5em;
     color: #787D84;
-    line-height: 1.4;
+    line-height: 1;
+    text-align: center;
 }
 
 .impacto-body .encuesta p{
@@ -791,6 +792,47 @@ footer .logo-footer img{
 }
 
 /** Generales **/
+body{
+
+    /* overflow-y: hidden; */
+}
+
+.container.body, .container-body{
+
+    height: 55vh;
+}
+
+.container.body{
+
+    margin-bottom: 1em;
+}
+
+.container-body img.body-img{
+
+    height: 50vh;
+}
+
+.container .row.pre-footer{
+
+    height: 8vh;
+}
+
+footer{
+
+    height: 12vh;
+}
+
+footer.container{
+
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+footer.container .row{
+
+    height: inherit;
+}
+
 .modal-header{
 
     margin: 0 auto;
