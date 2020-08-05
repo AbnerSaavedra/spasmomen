@@ -2,7 +2,7 @@
 
 .body-home img{
 
-    width: 100%;
+    width: 90%;
 
 }
 
@@ -34,7 +34,7 @@
 
 /** Header **/
 
-header.generic{
+header.generic, header.header-home{
 
     border-bottom: .8em solid #CD171A;
 }
@@ -147,7 +147,7 @@ footer .logo-footer img{
 
 .impacto-body img{
 
-    width: 85%;
+    width: 90%;
 }
 
 .impacto-body .resena{
@@ -792,12 +792,16 @@ footer .logo-footer img{
 /** Generales **/
 body{
 
-    /* overflow-y: hidden; */
+    height: calc(100vh);
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .container.body, .container-body{
 
-    height: 55vh;
+    height: auto;
 }
 
 .container.body{
@@ -807,17 +811,17 @@ body{
 
 .container-body img.body-img{
 
-    height: 50vh;
+    height: auto;
 }
 
 .container .row.pre-footer{
 
-    height: 8vh;
+    height: auto;
 }
 
 footer{
 
-    height: 12vh;
+    height: auto;
 }
 
 footer.container{
