@@ -58,7 +58,8 @@
 
 header.generic, header.header-home{
 
-    border-bottom: .8em solid #61B1E2;
+    /* border-bottom: .8em solid #61B1E2; */
+    padding: 0;
 }
 
 header .logo-header img{
@@ -68,15 +69,33 @@ header .logo-header img{
 
 header img{
 
-    width: 65%;
-    margin-top: 1em;
-    margin-bottom: .5em;
+    width: 100%;
+    position: relative;
+    bottom: -.5em;
 }
 
 header img.float-right{
 
     width: 65%;
     margin-top: 1.5em;
+}
+
+header .logos{
+
+    position: relative;
+    z-index: 4;
+}
+
+header .lineas-header{
+
+    position: relative;
+    top: -4em;
+    z-index: 3
+}
+
+header .lineas-header img{
+
+    width: 100%;
 }
 
 /** Pre-footer **/
@@ -177,7 +196,7 @@ footer .logo-footer img{
 
 .impacto-body img{
 
-    width: auto;
+    width: 90%;
 }
 
 .impacto-body .resena{
