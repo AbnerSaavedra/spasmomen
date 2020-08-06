@@ -38,10 +38,15 @@
 
     <footer class="container">
         <div class="row">
+
+            <!-- <div id="caja" class="col-md-12" style="background-color: yellow; width: 3em; height: 3em;"> 
+
+            </div>-->
+            
             <div class="col-md-4">
                 <div class="row iconos">
 
-                    <a href="pages/impacto.html"><img src="assets/images/repro-icono.png" alt=""></a>
+                    <a onclick="cambiarColor()" href="pages/impacto.html"><img src="assets/images/repro-icono.png" alt=""></a>
                     <a href="pages/muchas-gracias.html"><img src="assets/images/info-icono.png" alt=""></a>
                     <a href="pages/referencias.html"><img src="assets/images/guardar-icono.png" alt=""></a>
 
@@ -106,5 +111,13 @@
 <script src="assets/jquery-3.5.1.slim.min.js"></script>
 <script src="assets/popper.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script>
+
+    function cambiarColor(){
+
+        document.getElementById("caja").style.backgroundColor = "#E30613";
+    }
+
+</script>
 </body>
 </html>
