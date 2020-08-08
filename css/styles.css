@@ -157,6 +157,11 @@ footer .iconos{
     align-items: center;
 }
 
+footer .iconos a:first-child{
+
+    text-align: right;
+}
+
 footer .iconos img{
 
     width: 60%;
@@ -981,6 +986,12 @@ footer .logo-footer img{
     width: 7%;
 }
 
+.gracias-body .listas .lista-1 a img, 
+.gracias-body .listas .lista-2 a img{
+
+    width: 1.5em;
+}
+
 .gracias-body .listas ul{
 
     list-style: none;
@@ -1087,6 +1098,7 @@ footer .logo-footer img{
     text-indent:-2em;
     list-style-type:none;
     counter-increment:item;
+    line-height: 1.45;
   }
    
 
@@ -1151,6 +1163,48 @@ body{
 .container.body{
 
     height: -webkit-fill-available;
+}
+
+.modal-body .resena{
+
+    color: #14387F;
+    font-size: 1.5em;
+    line-height: 1.1;
+    text-align: left;
+    font-weight: 600;
+}
+
+.modal-body .resena span{
+
+    font-weight: 600;
+}
+
+.modal-body .encuesta{
+
+    border-radius: 10px;
+    background-color: #F1F2F4;
+    padding: 1em;
+    color: #787D84;
+    line-height: 1;
+    text-align: left;
+}
+
+.modal-body .encuesta p{
+
+    margin-bottom: 0;
+}
+
+.modal-body .libro-vinculo{
+
+    display: flex;
+    justify-content: center;
+    margin-top: -.3em;
+    margin-bottom: 1em;
+}
+
+.modal-body .libro-vinculo img{
+
+    width: 70%!important;
 }
 
 /*.container.body{
@@ -1230,4 +1284,21 @@ footer.container .row{
 #encuestaModal .modal-body span{
 
     font-weight: 700;
+}
+
+.container-body .explicacion, 
+.container-body .encuesta{
+
+    color: #787D84;
+}
+
+/** Particulares **/
+.dieta-est-2 footer.container{
+
+    background-color: transparent;
+}
+
+.container.body.dieta-est-2 img{
+
+    width: 90%;
 }
