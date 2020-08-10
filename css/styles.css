@@ -1181,6 +1181,11 @@ body{
     justify-content: center;
 }
 
+sup, sub{
+
+    font-size: 60%;
+}
+
 .container.body{
 
     height: -webkit-fill-available;
