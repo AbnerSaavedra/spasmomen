@@ -7,6 +7,44 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
+<style>
+
+ul{
+
+    list-style: none;
+    text-align: left;
+    color: gray;
+    line-height: 1.2;
+}
+
+.sindrome h1, .intolerancia h1{
+
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+.sindrome h1{
+
+    color: #FF8300;
+}
+
+.intolerancia h1{
+
+    color: #61B1E2;
+}
+
+.sindrome ul{
+
+    list-style-image: url("assets/images/vineta-amarilla.png");
+}
+
+.intolerancia ul{
+
+list-style-image: url("assets/images/vineta-azul.png");
+}
+</style>
+
 <body>
   
     <header class="generic container">
@@ -95,7 +133,9 @@
                             <img src="assets/images/sii-intolerancia-lactosa-transp.png" alt="">
                         </div>
                         <div class="mas">
-                                <img  src="assets/images/mas-gracias-icono.png" alt="">
+                                <a href="" data-target="#imagenModal1" data-toggle="modal">
+                                    <img  src="assets/images/mas-gracias-icono.png" alt="">
+                                </a>
                         </div>
                     </div>
                 </div>
@@ -242,6 +282,71 @@
                     <div class="col-md-8">
                         <img src="assets/images/infima-absorcion.png" alt="">
                     </div> 
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade col-md-12" id="imagenModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" style="text-align: center;">
+            <div class="modal-header" style="padding: 0;">
+                <img src="assets/images/sindrome-intolerancia-header.png" alt="" width="100%" style="border-radius: 30px;">
+              <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body container">
+                <div class="row">
+                    <div class="col-md-4 sindrome">
+                        <h1>
+                            15-20<sup>%</sup>
+                        </h1>
+                            <ul>
+                                <li>
+                                    Enfermedad multifactorial.
+                                </li>
+                                <li>
+                                   Importante comorbilidad
+                                    psicológica.     
+                                </li>
+                                <li>
+                                   Manejo sintomático. 
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="100%" src="assets/images/prevalencia-nuestra-region.png" alt="">
+                    </div>
+                    <div class="col-md-4 intolerancia">
+                        <h1>
+                            60-80<sup>%</sup>
+                        </h1>
+                        <ul>
+                            <li>
+                                Población con deficiencia a la
+                                persistencia de lactasa.
+                            </li>
+                            <li>
+                                Fisiopatología conocida.
+                            </li>
+                            <li>
+                                Manejo enzimático.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <img src="assets/images/sintomas-comunes.png" alt="" width="100%">
+                    </div>
+
+                    <div class="text-center col-md-12">
+                        <a href="Spasmoctyl Folleto 01.pdf#page=50" target="_blank">
+                            <img src="assets/images/mas-gracias-icono.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
           </div>

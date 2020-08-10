@@ -1366,7 +1366,7 @@ footer.container .row{
     width: 90%;
 }
 
-.modal {
+.mult-mec.modal {
     position:fixed;
     top:auto;
     right: 0;
@@ -1374,7 +1374,7 @@ footer.container .row{
     bottom: 50px;
  }
 
-.modal-dialog {
+ .mult-mec .modal-dialog {
     position:fixed;
     top:auto;
     right: 0;
@@ -1382,7 +1382,7 @@ footer.container .row{
     bottom: 50px;
  }  
 
- .modal.fade:not(.in) .modal-dialog {
+ .mult-mec.modal.fade:not(.in) .modal-dialog {
     -webkit-transform: translate3d(0, 25%, 0);
     transform: translate3d(0, 25%, 0);
 }
