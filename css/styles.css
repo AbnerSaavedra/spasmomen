@@ -866,7 +866,7 @@ footer .logo-footer img{
 
 .mecanismos-body img{
 
-    width: 80%;
+    width: 78%;
 }
 
 .mecanismos-body ul{
@@ -879,6 +879,27 @@ footer .logo-footer img{
 
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.mecanismos-body .info .text-center{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mecanismos-body .info .text-center a{
+
+    text-decoration: none;
+    background-color: #46629A;
+    color: #fff;
+    border-radius: 20px;
+    padding: .3em;
+    font-size: .7em;
+}
+
+.mecanismos-body .info .text-center a img{
+
+    width: 10%;
 }
 
 .evidencia-body {
@@ -1293,7 +1314,49 @@ footer.container .row{
 }
 
 /** Particulares **/
-.dieta-est-2 footer.container{
+.dieta-est{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dieta-est header img{
+
+    bottom: 0;
+}
+
+.dieta-est h1{
+
+    color: #F0821C;
+    font-size: 4em;
+    text-transform: inherit;
+    line-height: 1;
+}
+
+.dieta-est .container-body img.body-img{
+
+    width: 82%;
+}
+
+.dieta-est .logo{
+
+    width: 100%;
+    text-align: center;
+}
+
+.dieta-est .logo img{
+
+    width: 60%;
+}
+
+.dieta-est footer img{
+
+    width: 100%;
+}
+.dieta-est footer.container{
 
     background-color: transparent;
 }
@@ -1301,4 +1364,25 @@ footer.container .row{
 .container.body.dieta-est-2 img{
 
     width: 90%;
+}
+
+.modal {
+    position:fixed;
+    top:auto;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+ }
+
+.modal-dialog {
+    position:fixed;
+    top:auto;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+ }  
+
+ .modal.fade:not(.in) .modal-dialog {
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
 }
