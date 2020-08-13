@@ -122,6 +122,11 @@ header .lineas-header img{
     background-color: #E30613;
 }
 
+.pre-footer div:focus-within{
+
+    background-color: #E30613;
+}
+
 .pre-footer a{
 
     color: #fff;
@@ -1136,14 +1141,15 @@ footer .logo-footer img{
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between
   }
 
   .inserto-body .icon-x{
 
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    margin-top: 3em;
-    text-align: right;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   .referencias-body .icon-x{
@@ -1154,7 +1160,7 @@ footer .logo-footer img{
 
   .inserto-body .icon-x img{
 
-    width: 5%;
+    width: 55%;
   }
 
   .referencias-body .icon-x img{
@@ -1164,11 +1170,37 @@ footer .logo-footer img{
     float: right;
   }
 
+  .inserto-body h1{
+      
+    text-transform: inherit;
+  }
+
   .inserto-body p{
 
-    font-size: .2em;
-    color: #000;
+    font-size: .9em;
   }
+
+  .inserto-body span{
+
+    font-weight: 700;
+  }
+
+  .inserto-body .codigo-qr{
+
+    display: flex;
+    align-items: center;
+  }
+
+  .inserto-body .codigo-qr p{
+
+    width: 85%;
+  }
+
+  .inserto-body .codigo-qr img{
+
+    width: 100%;
+  }
+
 
 /** Generales **/
 body{
